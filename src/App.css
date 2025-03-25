@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #1d2125;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.visitor-counter {
+  margin-top: 150px;
+  font-size: 1.2rem;
+}
+
+.profile-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+
+.message-board {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 500px;
+  text-align: left;
+}
+
+.message-board input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+
+.message-board button {
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.message-board .message {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.message-board .message p {
+  margin: 0;
+  color: black;
+}
